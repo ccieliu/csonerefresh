@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CSone Queue Refresh
 // @namespace    https://csone.my.salesforce.com/console
-// @version      0.0.1
+// @version      0.0.2
 // @description  Auto Refresh
 // @author       yuxuliu@cisco.com
 // @match        https://csone.my.salesforce.com/500*
@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 // Version History :
-// 0.0.1    First release
+// 0.0.2    First release
 
 (function() {
     'use strict';
