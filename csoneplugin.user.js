@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         CSoneQueueRefresh
+// @name         CSone Queue Refresh
 // @namespace    https://csone.my.salesforce.com/console
 // @version      0.0.1
 // @description  Auto Refresh
 // @author       yuxuliu@cisco.com
-// @match        *://csone.my.salesforce.com/500*
+// @match        https://csone.my.salesforce.com/500*
 // @grant        none
 // @run-at      document-idle
 // @downloadURL https://raw.githubusercontent.com/ccieliu/csonerefresh/master/csoneplugin.user.js
@@ -17,7 +17,7 @@
 (function() {
     'use strict';
 function refreshQueue(){
-    document.getElementById("00B1C00000ALA4O_refresh").onclick();
+    document.getElementsByClassName("btn refreshListButton")[0].onclick()
 }
 setInterval(refreshQueue,5000);
 })();
