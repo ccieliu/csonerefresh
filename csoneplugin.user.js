@@ -7,8 +7,8 @@
 // @match        *://csone.my.salesforce.com/*
 // @grant        none
 // @run-at      document-idle
-// @downloadURL https://raw.githubusercontent.com/ccieliu/csonerefresh/master/csoneplugin.js
-// @updateURL   https://raw.githubusercontent.com/ccieliu/csonerefresh/master/csoneplugin.js
+// @downloadURL https://raw.githubusercontent.com/ccieliu/csonerefresh/master/csoneplugin.user.js
+// @updateURL   https://raw.githubusercontent.com/ccieliu/csonerefresh/master/csoneplugin.user.js
 // ==/UserScript==
 
 // Version History :
