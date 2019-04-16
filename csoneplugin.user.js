@@ -14,7 +14,7 @@
 // Version History :
 // 0.0.1    First release
 // 0.0.2    Fix the queue button, useClassname get elements
-// 0.0.3    Fix the queue button, useClassname get elements
+// 0.0.3    Change interval to 30s
 (function() {
     'use strict';
 function refreshQueue(){
