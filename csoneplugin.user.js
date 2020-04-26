@@ -36,4 +36,4 @@ function notiCase(){
     catch(err){}
 }
 setInterval(refreshQueue,30000);
-setInterval(notiCase,60000);
+setInterval(notiCase,180000);
