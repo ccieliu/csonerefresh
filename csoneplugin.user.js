@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CSone Queue Refresh
 // @namespace    https://csone.my.salesforce.com/console
-// @version      0.0.5
+// @version      0.0.6
 // @description  Auto Refresh
 // @author       yuxuliu@cisco.com
 // @match        https://csone.my.salesforce.com/500*
@@ -17,6 +17,7 @@
 // 0.0.3    Change interval to 30s
 // 0.0.4    Add case notification feature
 // 0.0.5    Chagne timer to 60s to notice the case.
+// 0.0.6    Chagne timer to 180s to notice the case.
 function refreshQueue(){
     try{ document.getElementsByClassName("btn refreshListButton")[0].onclick() }
     catch(err){}
