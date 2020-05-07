@@ -16,8 +16,8 @@
 // 0.0.2    Fix the queue button, useClassname get elements
 // 0.0.3    Change interval to 30s
 // 0.0.4    Add case notification feature
-// 0.0.5    Chagne timer to 60s to notice the case.
-// 0.0.6    Chagne timer to 180s to notice the case.
+// 0.0.5    Change timer to 60s to notice the case.
+// 0.0.6    Change timer to 180s to notice the case.
 function refreshQueue(){
     try{ document.getElementsByClassName("btn refreshListButton")[0].onclick() }
     catch(err){}
